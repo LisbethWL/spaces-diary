@@ -1,0 +1,65 @@
+.quote {
+    font: 400 72px "Arizonia", Helvetica, sans-serif;
+    color:rgb(160, 133, 98);
+    text-align: center;
+}
+
+.post-title {
+    color: #A08562;
+}
+
+a {
+    color: #008CBA;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #FFF;
+    background-color: #7e997e;
+    border-color: #7e997e;
+}
+
+.page-item .page-link {
+    z-index: 3;
+    color: #416141;
+    background-color: #FFF;
+    border-color: burlywood;
+}
+
+.page-item .page-link:hover {
+    z-index: 3;
+    color: #416141;
+    background-color: lightgray;
+    border-color: burlywood;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #5C5C3D;
+    border-color: rgb(66, 75, 66);    
+}
+
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #5C5C3D;
+    border-color: lime;
+}
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.btn-link {
+    color: mediumseagreen;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    color: #5C5C3D;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container {
+    margin-top: 2em;
+}
