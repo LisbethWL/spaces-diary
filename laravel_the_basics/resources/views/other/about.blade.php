@@ -30,7 +30,9 @@
             around us,... <b>Paulo Coelho</b>
             <br><br>
             Nothing puzzles me more than the time and space; and yet nothing 
-            troubles me less. <b>Charles Lamb</b>            
+            troubles me less. <b>Charles Lamb</b>
+            <br><br>
+            <b>Lisbeth Wittendorff Lorentzen</b>         
             </p>
         </div>
     </div>
