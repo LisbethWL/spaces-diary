@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="{{ route('blog.index') }}">Laravel Guide</a>
+  <a class="navbar-brand" href="{{ route('blog.index') }}">Spaces Diary</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -34,14 +34,14 @@
 
   @else
   <li class="nav-item dropdown">
-      <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+      <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre style="position: relative; padding-left:50px;">
+      <img src="/uploads/avatars/{{ Auth::user()->avatar }}" style="width:32px; height:32px; position:absolute; top:10px; left:10px; border-radius:50%">
           {{ Auth::user()->name }}
       </a>
 
       <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="{{ route('user.profile') }}"
-              onclick="event.preventDefault();
-                            document.getElementById('profile-form').submit();">
+          <a class="dropdown-item" href="{{ route('user.profile') }}">
+              
               {{ __('Profile') }}
           </a>
           <a class="dropdown-item" href="{{ route('logout') }}"
